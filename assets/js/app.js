@@ -61,6 +61,18 @@ const app = {
             path: './assets/music/song5.mp3',
             img: './assets/img/img5.jpg'
         },
+        {
+            name: 'Kỳ vọng sai lầm',
+            singer: 'NGUYỄN ĐÌNH VŨ x TĂNG PHÚC x YUNO',
+            path: './assets/music/song6.mp3',
+            img: './assets/img/img6.jpg'
+        },
+        {
+            name: 'Là Bạn Không Thể Yêu',
+            singer: 'Lou Hoang',
+            path: './assets/music/song7.mp3',
+            img: './assets/img/img7.jpg'
+        },
     ],
 
     render: function () {
@@ -287,6 +299,8 @@ const app = {
 
         //render playList
         app.render()
+
+        app.randomBg()
     }
 }
 

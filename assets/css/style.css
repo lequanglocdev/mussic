@@ -26,16 +26,19 @@ html {
 }
 
 .dashboard {
-  padding: 16px 16px 14px;
-  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
   max-width: 480px;
+  padding: 16px 16px 14px;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 22px;
   border-bottom: 1px solid #ebebeb;
   z-index: 3;
 }
-
+.playlist{
+  box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 22px;
+}
 header {
   text-align: center;
   margin-bottom: 10px;
